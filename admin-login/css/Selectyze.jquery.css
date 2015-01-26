@@ -1,0 +1,56 @@
+.DivSelectyze {
+	position: relative;
+	width: 210px;
+	float: left;
+	margin:5px 0 0 0;
+	box-shadow:1px 1px 1px #ccc;
+}
+.DivSelectyze .selectyzeValue {
+	position: relative;
+	display: block;
+	text-decoration: none;
+}
+.DivSelectyze ul {
+	list-style: none;
+}
+.DivSelectyze .UlSelectize {
+	position: absolute;
+	display: none;
+}
+.DivSelectyze li a {
+	display: block;
+	text-decoration: none;
+}
+.optgroupTitle {
+	display: block;
+}
+.selectList .selectyzeValue {
+	font: 14px/30px 'Fauna One', Arial, Helvetica, sans-serif;
+	color: #4d4d4d;
+	width: 210px;
+	height: 30px;
+	background: url('../images/selectBoxSmall.png') no-repeat;
+	padding-left: 15px
+}
+.selectList .UlSelectize {
+	top: 30px;
+	left: 0;
+	width: 208px;
+	border-top: none;
+	border-left: 1px solid #f58220;
+	border-right: 1px solid #f58220;
+	background-color: #fff
+}
+.selectList li a {
+	height: 28px;
+	font: 14px/30px 'Fauna One', Arial, Helvetica, sans-serif;
+	background-color: transparent;
+	color: #4d4d4d;
+	border-top: none;
+	border-bottom: 1px solid #f58220;
+	padding-left: 10px
+}
+.selectList li a:hover {
+	color: #fff;
+	background-color: #f58220;/** gradient bgcolors */
+}

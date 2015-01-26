@@ -1,0 +1,52 @@
+#accordion-container {
+	font-family:'Fauna One', Arial, Helvetica, sans-serif;
+	background: #ffffff;
+}
+
+.accordion-header {
+	font-size: 14px;
+	font-family:'Fauna One', Arial, Helvetica, sans-serif;
+	background: #ebebeb;
+	margin: 1px 0 0 0;
+	padding: 10px 20px ;
+	cursor: pointer;
+}
+
+.active-header {
+	background: url(../images/active-header.gif) #a72b30;
+	background-repeat: no-repeat;
+	background-position: right 50%;
+	color:#fff;
+}
+
+.active-header:hover {
+	background: url(../images/active-header.gif) #a72b30;
+	background-repeat: no-repeat;
+	background-position: right 50%;
+}
+
+.inactive-header {
+	background:url(../images/inactive-header.gif) #f87b22;
+	background-repeat: no-repeat;
+	background-position: right 50%;
+	color:#fff;
+}
+
+.inactive-header:hover {
+	background: url(../images/inactive-header.gif) #a72b30;
+	background-repeat: no-repeat;
+	background-position: right 50%;
+}
+
+.accordion-content {
+	display: none;
+	padding: 10px 20px;
+	background: #fdfbf9;
+	border-top: 0;
+}
+.accordion-content ul li{
+	margin:10px 0 10px 15px;
+	font-size: 13px;
+	font-family:'Fauna One', Arial, Helvetica, sans-serif;
+	color:#a72b30;
+}

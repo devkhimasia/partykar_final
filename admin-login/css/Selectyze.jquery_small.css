@@ -1,0 +1,60 @@
+.DivSelectyze2 {
+	position: relative;
+	width: 100px;
+	float: left;
+	margin:0 0 0 0;
+	box-shadow:1px 1px 1px #ccc;
+}
+.DivSelectyze2 .selectyzeValue2 {
+	position: relative;
+	display: block;
+	text-decoration: none;
+}
+.DivSelectyze2 ul {
+	list-style: none;
+}
+.DivSelectyze2 .UlSelectize2 {
+	position: absolute;
+	display: none;
+}
+.DivSelectyze2 li a {
+	display: block;
+	text-decoration: none;
+}
+.optgroupTitle {
+	display: block;
+}
+.selectList2 .selectyzeValue2 {
+	font: 14px/30px 'Fauna One', Arial, Helvetica, sans-serif;
+	color: #4d4d4d;
+	width: 100px;
+	height: 18px;
+	background: url('../images/tiney-select-box.png') no-repeat;
+	padding-left: 10px;
+	padding-top:2px;
+	text-align:left;
+}
+.selectList2 .UlSelectize2 {
+	top: 20px;
+	left: 0;
+	width: 98px;
+	border-top: none;
+	border-left: 1px solid #a9a9a9;
+	border-right: 1px solid #a9a9a9;
+	background-color: #fff
+}
+.selectList2 li a {
+	height: 18px;
+	font: 14px/30px 'Fauna One', Arial, Helvetica, sans-serif;
+	background-color:#ebebeb;
+	color: #4d4d4d;
+	border-top: none;
+	border-bottom: 1px solid #a9a9a9;
+	padding-left: 10px;
+	text-align:left;
+}
+.selectList2 li a:hover {
+	color: #fff;
+	background-color: #fff;/** gradient bgcolors */
+}
+

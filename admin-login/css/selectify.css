@@ -1,0 +1,83 @@
+
+.selectify{
+    position: relative;
+    color:#000;
+	text-align:left;
+	float:left;
+}
+
+.selectify .options{
+    position:absolute;
+    z-index:2;
+    max-height:250px;
+    overflow-y:auto;
+	overflow-x:hidden;
+}
+
+
+.selectify .header{
+	width:300px;
+	height:auto;
+	padding:5px 0; 
+    background: #fff;    
+    cursor:pointer;
+	font: 13px 'Fauna One', Arial, Helvetica, sans-serif;
+	color: #000;
+	border: 1px solid #ff8503;
+}
+
+.selectify .header .icon{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ff8503 transparent transparent;
+    border-image: none;
+    border-right: 7px solid transparent;
+    border-style: solid;
+    border-width: 7px;
+    content: " ";
+    height: 0;
+    margin-left: 0px;
+    position: absolute;
+    width: 0;
+    right: 15px;
+    margin-top: -3px;
+    position: absolute;
+    top: 50%;
+}
+
+.selectify .header .selected{
+    color:#000;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.selectify .header.hover .selected{
+    color:#000;
+}
+
+.selectify .header.hover .icon{
+    border-color: #AA3B3F transparent transparent;
+}
+
+.selectify .option{
+	width:240px;
+    border: 1px solid #ff8503;
+    cursor:pointer;
+    border-top:0;
+    padding:5px 0 5px 10px;
+    background:#FFF;
+	font: 13px 'Fauna One', Arial, Helvetica, sans-serif;
+	color: #000;
+	overflow:auto;
+}
+
+.selectify .option.hover{
+    background:#ff8503;
+}
+
+.selectify .option.active{
+    background:#F39814;
+    color:#000;
+}

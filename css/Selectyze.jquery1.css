@@ -1,0 +1,66 @@
+.DivSelectyze {
+	position: relative;
+	width: 287px;
+	float: left;
+}
+.DivSelectyze .selectyzeValue {
+	position: relative;
+	z-index: 0;
+	display: block;
+	text-decoration: none;
+}
+.DivSelectyze ul {
+	list-style: none;
+}
+.DivSelectyze .UlSelectize {
+	position: absolute;
+	z-index: 0;
+	display: none;
+}
+.DivSelectyze li a {
+	display: block;
+	text-decoration: none;
+}
+.optgroupTitle {
+	display: block;
+}
+.selectList .selectyzeValue {
+	font: 14px/30px 'Fauna One', Arial, Helvetica, sans-serif;
+	color: #4d4d4d;
+	width: 287px;
+	height: 48px;
+	background: url('../images/cat-menu-bg.png') no-repeat;
+	padding-left: 15px
+}
+.selectList .UlSelectize {
+	top: 48px;
+	left: 0;
+	width: 285px;
+	border-top: none;
+	border-left: 1px solid #f58220;
+	border-right: 1px solid #f58220;
+	background-color: #fff
+}
+.selectList li a {
+	height: 32px;
+	font: 14px/30px 'Fauna One', Arial, Helvetica, sans-serif;
+	background-color: transparent;
+	color: #4d4d4d;
+	border-top: none;
+	border-bottom: 1px solid #f58220;
+	padding-left: 10px
+}
+.selectList li a:hover {
+	color: #fff;
+	background-color: #f58220;/** gradient bgcolors */
+}
+demo {
+	color: #fff;
+	background-color: #2a98c1;/** gradient bgcolors */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#84d8f8), to(#0ab2f1)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #84d8f8, #0ab2f1); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image: -moz-linear-gradient(top, #84d8f8, #0ab2f1); /* FF3.6 */
+	background-image: -ms-linear-gradient(top, #84d8f8, #0ab2f1); /* IE10 */
+	background-image: -o-linear-gradient(top, #84d8f8, #0ab2f1); /* Opera 11.10+ */
+	background-image: linear-gradient(top, #84d8f8, #0ab2f1)
+}

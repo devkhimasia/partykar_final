@@ -1,0 +1,65 @@
+.ratings {
+            border:     1px solid #CCC;
+            overflow:   visible;
+            padding:    10px;
+            position:   relative;
+            width:      180px;
+            height:     73px;
+        }
+.ratings_stars {
+            background: url(../images/star_blank.png) no-repeat;
+            float:      left;
+            height:     28px;
+            padding:    2px;
+            width:      32px;
+        }
+.ratings_vote {
+            background: url(../images/star_voted.png) no-repeat;
+        }
+.ratings_over {
+            background: url(../images/star_overs.png) no-repeat;
+        }
+		
+.total_votes {  
+    background: #eaeaea;  
+    top: 39px;  
+    left: 0;  
+    padding: 5px;  
+    position:   absolute;  
+}  
+.product{  
+    font: 10px verdana, sans-serif;  
+    margin: 0 auto 40px auto;  
+    width: 180px; 
+	height:60px; 
+}  
+
+
+
+.rating_bar {
+    /*this class creats 5 stars bar with empty stars */
+    /*each star is 16 px, it means 5 stars will make 80px together */
+    width: 80px;
+    /*height of empty star*/
+    height: 16px;
+    /*background image with stars */
+    background: url(../images/stars.png);
+    /*which will be repeated horizontally */
+    background-repeat: repeat-x;
+    /* as we are using sprite image, we need to position it to use right star, 
+    //0 0 is for empty */
+    background-position: 0 0;
+    /* align inner div to the left */
+    text-align: left;
+}
+.rating {
+    /* height of full star is the same, we won't specify width here */
+    height: 16px;
+    /* background image with stars */
+    background: url(../images/stars.png);
+    /* now we will position background image to use 16px from top, 
+    //which means use full stars */
+    background-position: 0 -16px;
+    /* and repeat them horizontally */
+    background-repeat: repeat-x;
+}
